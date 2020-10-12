@@ -2,7 +2,7 @@
 赤嶺正美  
 
 ## 課題
-1. chapter01 「[Windows環境でHTML](chapter01/ch01-first.html)」
+1. chapter01 「[Windows環境でHTML](chapter01/ch01-firsthtml-win.html)」
 2. chpater02 「[Linux環境でHTMLを作ってみよう](chapter02/ch02-firsthtml-linux.html)」
 3. chpater03 「[マークアップの考え方トレーニング](chapter03/ch03-markuptag1.html)」
 4. chapter04 「[自己紹介ページ](chapter04/ch04-markuptag1.html)」
