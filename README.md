@@ -12,4 +12,4 @@
 8. chpater08 「[リンクの設定と画像の表示](chapter08/ch08-linking.html)」
 9. chapter09 「[ボックスと情報の整理](chapter09/ch09-boxcss.html)」
 10. chapter10 「[テーブル](chapter10/ch10-table.html)」
-11. chapter11 「[初めてのWeb](Web_work/index.html)」
+11. chapter11 「[初めてのWeb](homwework/index.html)」
