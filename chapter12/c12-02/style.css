@@ -6,17 +6,25 @@ body {
 
 .container {
 	margin:  0 auto 0 auto;
-	padding: 0 16px 0 16px;
 	max-width: 1000px;
 	border: solid 1px #00ffff;
 }
 
-nav {
-	margin-bottom: 20px;
+section .container{
+	display: flex;
+	flex-flow: column;
 }
 
+section .container{
+	display: flex;
+	flex-flow: column;
+}
+
+nav {
+	}
+
 footer{
-	margin-top: 20px;
+	
 }
 
 main p:last-child {
@@ -44,23 +52,44 @@ main p:last-child {
 	border: solid 1px #000000;
 }
 
-.main-inner {
+main {
 	padding: 10px 10px 0 10px;
 	background: #fffde3;
 	height: 400px;
 	border: solid 1px #000000;
 }
 
-.sidebar-inner {
+.sidebar {
 	padding: 10px 10px 0 10px;
 	background: #c0f5b9;
 	border: solid 1px #000000;
 }
 
 .footer-inner {
-	padding: 10px 10px 0 10px;
-	background: #c0f5b9;
+	padding: 10px 10px 10px 10px;
+	background: #bdaf75;
 	border: solid 1px #000000;
 }
+
+@media only screen and (min-width: 768px) {
+	section .container{
+		flex-flow: row;
+	}
+		main {
+		flex: 1 1 auto; 
+		order: 2;
+	}
+	.sidebar1 {
+		flex: 0 0 200px;
+		order: 1;
+	}
+
+	.sidebar2 {
+		flex: 0 0 250px;
+		order: 3;
+	}
+}
+	
+
 
 
